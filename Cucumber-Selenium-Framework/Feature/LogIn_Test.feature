@@ -11,7 +11,7 @@
 #Background: List of steps run before each of the scenarios
 #""" (Doc Strings)
 #| (Data Tables)
-#@ (Tags/Labels):To group Scenarios 
+#@ (Tags/Labels):To group Scenarios
 #<> (placeholder)
 #""
 ## (Comments)
@@ -19,16 +19,16 @@
 #Sample Feature Definition Template
 
 Feature: Login Action
- 
-@SmokeTest 
+
+@SmokeTest
 Scenario: Successful Login with Valid Credentials
 	Given User is on Home Page
 	When User Navigate to LogIn Page
 	And User enters Credentials to LogIn
-	    | bishnucit@gmail.com | killer |
+	    | uses@gma.com | pas123 |
 	Then Message displayed Login Successfully
-	
-@SmokeTest 
+
+@SmokeTest
 Scenario: Successful LogOut
 	When User LogOut from the Application
 	Then Message displayed LogOut Successfully
