@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Cucumber-Selenium-Framework" tests="6" started="6" failures="0" errors="0" ignored="1">
+  <testsuite name="cucumberTest.TestRunner" time="13.412">
+    <testsuite name="Feature: Login Action" time="13.412">
+      <testsuite name="Scenario: Successful Login with Valid Credentials" time="6.645">
+        <testcase name="Given User is on Home Page" classname="Scenario: Successful Login with Valid Credentials" time="0.907"/>
+        <testcase name="When User Navigate to LogIn Page" classname="Scenario: Successful Login with Valid Credentials" time="5.737"/>
+        <testcase name="And User enters &quot;bishnucit@gmail.com&quot; and &quot;killer&quot;" classname="Scenario: Successful Login with Valid Credentials" time="0.001"/>
+        <testcase name="Then Message displayed Login Successfully" classname="Scenario: Successful Login with Valid Credentials" time="0.0"/>
+      </testsuite>
+      <testsuite name="Scenario: Successful LogOut" time="0.002" incomplete="true">
+        <skipped/>
+        <testcase name="When User LogOut from the Application" classname="Scenario: Successful LogOut" time="0.001"/>
+        <testcase name="Then Message displayed LogOut Successfully" classname="Scenario: Successful LogOut" time="0.001" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
